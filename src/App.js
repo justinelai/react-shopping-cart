@@ -31,11 +31,9 @@ function App() {
 				exact
 				path="/"
 				component={Products} />
-			/>
 
 			<Route
 				path="/cart" component={ShoppingCart} />
-			/>
 			</CartContext.Provider>
 			</ProductContext.Provider>
 		</div>
